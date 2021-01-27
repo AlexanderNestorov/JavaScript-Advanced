@@ -7,7 +7,7 @@ function addItem() {
 
     //select list from page and append new element to it
     document.getElementById('items').appendChild(liElement);
-
+    //then we set the input to an empty string for it to be ready for the next input
     document.getElementById('newItemText').value = '';
 
 
